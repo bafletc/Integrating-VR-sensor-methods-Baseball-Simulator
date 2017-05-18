@@ -42,25 +42,29 @@ _See Further Technical Details in Documentation Directory
 #### Main Methods ####
 1. Install the Trinus VR app to a compatable mobile device  
 2. Install the Kinect for Windows SDK v2.0 to the PC  
-3. Don't connect to the Wiimote to the PC over bluetooth(Current Version doesn't use the wii mote) 
-4. Download the repository and unpack the "BaseballSimPackage.unitypackage" located in the mainsrc folder  
-5. Open the scene file "BaseballSimScene.unity" also located in the src folder   
+3. Don't connect to the Wiimote to the PC over bluetooth(Current Version doesn't use the Wiimote, simply tracks the wrist and holds the bat 1 direction)  
+4. Download the repository and open the project folder "BaseballSim" in Unity Editor
+5. Open the scene file "BaseballSimScene.unity" located in the src folder   
 6. Open the app on the mobile device and cofigure it for the desired function
 7. Connect the Kinect to the PC(Test in the Kinect Studio)
-8. Create Mobile Hotspot on mobile device from the Trinus App in "USB Tap to Activate"
-9. Disable Mobile Data on phone
-10. Start Client Server
-9. Play the scence and follow the connection methods detailed in the documentation for each utilities' devices (Wi-Fi Connection used by default for much better performance and to easily reduce physical connectivity issues between the device and PC; USB connection is also not supported for iOS devices)
+8. Create a Mobile Hotspot on mobile device from the Trinus App->"USB Tap to Activate"->Mobile HotSpot (Android)
+9. Disable Mobile Data on the phone
+10. Connect PC to device hotspot and start "Client Server" on mobile device
+11. Play the scence and follow the connection methods detailed in the documentation for each utility (Wi-Fi Connection used by default for much better performance and to easily reduce physical connectivity issues between the device and PC; USB connection is also not supported for iOS devices)
 
 #### Extension ####
 5) If the scene is not loaded in properly  
   a. Create a blank new scene and insert the prefab "BBSimPrefab" from the project src folder  
   b. Deconstruct this prefab and take all the immediate child objects from the prefab heirarchy and move them to be objects of the scene.  
   c. Return to Step 6  
-8) If the phone or PC's network adapter won't support a wifi connect
-  a. Deselect "Create Mobile Hotspot" in the Trinus Manager Object 
+8) If the phone or PC's network adapter won't support a wifi connectrion
+  a. Deselect "Create Mobile Hotspot" in the Trinus Manager Object
+  b. Use USB tethering for connection
+  c. Return to step 10
 
-  
+## Ingame Calibration: ##
+After the skeleton attaches to the users body and the camera is connected face the direction of the kinect and alter the orientation of the headset by rotating and reseting until it is aligned with the avatar. This is a tedious process to align well, but the the methods used to attach the camera to the skeleton make this difficult to manage automatically as well.(See potential updates)
+I managed to achieve an extremely accurate portrayal of my body but is difficult to repeat with any consistency. It is also very important to have medium intensity lighting with the Kinect being able to view all the tracked joints by the Unity app. I typically found placing the camera around neck level approx. 6-10ft away. This variation 
   
 ## Controls ##
 
@@ -75,4 +79,5 @@ I: Ignore View
 P: Spawn Ball
 
 __Potential Updates:__
-
+* Use the ir blasster/transmitter of the kinect to calibrate the orientation of the Wiimote/HMD
+- Could possibly use simple IR bar at the same position of the kinect but might prove difficult to implement
