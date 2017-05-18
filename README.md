@@ -42,16 +42,25 @@ _See Further Technical Details in Documentation Directory
 #### Main Methods ####
 1. Install the Trinus VR app to a compatable mobile device  
 2. Install the Kinect for Windows SDK v2.0 to the PC  
-3. Connect to the Wiimote to the PC over bluetooth  
+3. Don't connect to the Wiimote to the PC over bluetooth(Current Version doesn't use the wii mote) 
 4. Download the repository and unpack the "BaseballSimPackage.unitypackage" located in the mainsrc folder  
 5. Open the scene file "BaseballSimScene.unity" also located in the src folder   
-6. Play the scence and follow the connection methods detailed in the documentation for each utilities' devices (Wi-Fi Connection used by default for much better performance and to easily reduce physical connectivity issues between the device and PC; USB connection is also not supported for iOS devices)
+6. Open the app on the mobile device and cofigure it for the desired function
+7. Connect the Kinect to the PC(Test in the Kinect Studio)
+8. Create Mobile Hotspot on mobile device from the Trinus App in "USB Tap to Activate"
+9. Disable Mobile Data on phone
+10. Start Client Server
+9. Play the scence and follow the connection methods detailed in the documentation for each utilities' devices (Wi-Fi Connection used by default for much better performance and to easily reduce physical connectivity issues between the device and PC; USB connection is also not supported for iOS devices)
 
 #### Extension ####
 5) If the scene is not loaded in properly  
   a. Create a blank new scene and insert the prefab "BBSimPrefab" from the project src folder  
   b. Deconstruct this prefab and take all the immediate child objects from the prefab heirarchy and move them to be objects of the scene.  
   c. Return to Step 6  
+8) If the phone or PC's network adapter won't support a wifi connect
+  a. Deselect "Create Mobile Hotspot" in the Trinus Manager Object 
+
+  
   
 ## Controls ##
 
@@ -62,7 +71,8 @@ A: Respawn Ball
 
 #### Keyboard Controls ####
 R: Recallibrate Headset Rotation (Recallibration Required after the Kinect detects the skeleton and the mobile device's camera runtime object is created.)  
-I: Ignore View  
+I: Ignore View 
+P: Spawn Ball
 
 __Potential Updates:__
 
