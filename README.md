@@ -7,8 +7,7 @@ could achieve alone.
 
 ### Required Utilities:
 [__FlaFla2/Unity Wiimote API__](https://github.com/Flafla2/Unity-Wiimote): Accesses basic user input from button presses and updates Wiimote motion data while ingame
-[__Vitruvius Kinect Utility__](https://github.com/LightBuzz/Vitruvius): Elaborates on the original Kinect utilities by providing more nuanced interaction between the 
-user's motion and the Unity environment
+[__Vitruvius Kinect Utility__](https://github.com/LightBuzz/Vitruvius): Elaborates on the original Kinect utilities by providing more nuanced interaction between the user's motion and the Unity environment
 [__Trinus VR Unity__](https://www.assetstore.unity3d.com/en/#!/content/43781): Facilitates the connection between the PC and the HMD(Head Mounted Display) for video 
 and sensor traffic
 [__Kinect for Windows SDK 2.0__](https://developer.microsoft.com/en-us/windows/kinect/develop): Gives the PC basic tools to read Kinect body tracking data
