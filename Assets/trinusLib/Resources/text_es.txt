@@ -1,0 +1,70 @@
+labelOn=Sí
+labelOff=No
+labelOk=Vale
+labelCancel=Cancela
+labelContinue=Continuar
+labelConnSettings=Opciones
+labelMotionBoost=Motion Boost
+labelLensDistortion=Corrección Lentes
+labelMainPort=Puerto Vídeo
+labelSensorPort=Puerto Sensor
+labelScore=Puntos: {0}
+labelQuit=Salir
+labelCustomLens=Manual
+
+labelScreenX=Tamaño X
+labelScreenY=Tamaño Y
+labelLensX=Ángulo X
+labelLensY=Ángulo Y
+labelScaleX=Escala X
+labelScaleY=Escala Y
+labelWarpX=Warp X
+labelWarpY=Warp Y
+labelWarpZ=Warp Z
+labelChroma=Color
+
+msgIntro0=Descarga la app TrinusVR\n(Escanea este código o\nvisita http://trinusvr.com/dlu)
+msgIntro1=Conecta el teléfono\nvia USB o Wifi
+msgIntro2=Para Wifi, mejor tener el PC\nconectado al router por cable
+msgIntro3=Para USB, usa un cable de datos\ny ten los drivers USB actualizados
+msgIntro4=Si el rendimiento es bajo reinicia el\njuego reduciendo la resolución o calidad\nNota: Modo en pantalla completa puede\nafectar ligeramente el rendimiento
+msgIntro5=Inicia la app TrinusVR en el\nteléfono, ponlo en las gafas RV\ny presiona ESPACIO
+msgTrinusWait=Esperando conexión Trinus\n{0}
+msgFailedConn=Fallo de conexión {0}
+
+hintOkLensSettings=Presiona ESCAPE para cancelar los cambios
+hintQuit=Salir al escritorio
+hintConnSettings=Opciones básicas de conexión\nPresiona ESCAPE durante el juego para más opciones
+hintTypeMainPort=Teclea el número de puerto (igual que en el teléfono) y presiona ENTER
+hintTypeSensorPort=Teclea el número de puerto y presiona ENTER
+hintLensDistortion=Activa para mejor calidad de imagen (ajustable durante el juego)
+hintMotionBoost=Activa para mejorar el rendimiento (desactiva si la imagen parpadea)
+
+hintScreenX=Distancia entre las dos imágenes mostradas (distancia intra pupilar)
+hintScreenY=Subir o bajar la imagen
+hintLensX=Ángulo de rotación de las lentes
+hintLensY=Ángulo de rotación de las lentes
+hintScaleX=Cambiar el tamaño
+hintScaleY=Cambiar el tamaño
+hintWarpX=Distorsiona/curva la imagen para contrarrestar la distorsión de lentes
+hintWarpY=Distorsiona/curva la imagen para contrarrestar la distorsión de lentes
+hintWarpZ=Distorsiona/curva la imagen para contrarrestar la distorsión de lentes
+hintChroma=Ajusta la correción de color
+
+labelShowFps=Mostrar FPS
+labelYawScale=Sensibilidad
+labelYawScale11=1:1
+labelYawScale21=2:1
+labelYawScale31=3:1
+labelLensPreset=Ajuste de Lente
+labelAdvancedLens=Ajuste Avanzado
+
+hintShowFps=Mostrar FPS
+hintYawScale=Sensibilidad de rotación, ajusta según preferencia y uso (sentado, de pie)
+hintLensPreset=Selecciona un ajuste comfortable para tus gafas RV\nPuedes ajustar manualmente mediante el menú avanzado
+hintAdvancedLens=Ajustar manualmente las lentes para mejor comfort
+
+labelRestart=Reiniciar
+labelApply=Aplicar
+
+labelIpd=Separación (IPD)

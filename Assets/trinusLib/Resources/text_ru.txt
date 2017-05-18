@@ -1,0 +1,98 @@
+﻿labelOn=Вкл
+labelOff=Выкл
+labelOk=Ok
+labelCancel=Отмена
+labelContinue=Далее
+labelConnSettings=Настройки
+labelMotionBoost=Ускорение
+labelLensDistortion=Коррекция линз
+labelMainPort=Видео порт
+labelSensorPort=Сенсор порт
+labelScore=Счёт: {0}
+labelQuit=Выйти
+labelCustomLens=Кастом
+
+labelScreenX=Экран X
+labelScreenY=Экран Y
+labelLensX=Линзы X
+labelLensY=Линзы Y
+labelScaleX=Вытянуть X
+labelScaleY=Вытянуть Y
+labelWarpX=Выгнуть X
+labelWarpY=Выгнуть Y
+labelWarpZ=Выгнуть Z
+labelChroma=Аберрации
+
+msgIntro0=Скачайте TrinusVR\nдля андроид из магазина\n(Сканируйте код ниже\nили гоу на http://trinusvr.com/dlu)
+msgIntro1=Соедините ваш смарт\nпо USB-модем или Wifi
+msgIntro2=Для Wifi, лучшее подключение\nПК к роутеру через кабель
+msgIntro3=Для USB, подключите кабель\nобновите USB драйвер
+msgIntro4=Если скорость низкая, перезапустите\nигру, убавьте разрешение или качество\nПомните: Оконный режим даст\nлучшую скорость, чем полный экран
+msgIntro5=Запустите TrinusVR, положите\nсмарт в HMD и нажмите пробел
+msgTrinusWait=Ожидание соединения...\n{0}
+msgFailedConn=Ошибка соединения {0}
+
+hintOkLensSettings=Ok-подтвердить, или нажмите ESC-отменить изменения
+hintQuit=Выйти (рабочий стол)
+hintConnSettings=Основные настройки для установления соединения Trinus\nНажмите ESC во время игры для дополнительных опций
+hintTypeMainPort=Введите номер порта (такой же как в смартфоне) и нажмите ENTER
+hintTypeSensorPort=Введите номер порта и нажмите ENTER
+hintLensDistortion=Включите для улучшения картинки (можно настроить во время игры)
+hintMotionBoost=Включите для улучшения производительности (отключите, если картинка мерцает)
+
+hintScreenX=Расстояние между двумя картинками (IPD, меж зрачковое расстояние)
+hintScreenY=Движение картинки вверх и вниз
+hintLensX=Повороты дисплея
+hintLensY=Повороты дисплея
+hintScaleX=Изменить размер (используется, чтобы вписать картинку в обзор)
+hintScaleY=Изменить размер (используется, чтобы вписать картинку в обзор)
+hintWarpX=Компенсирует искажения линз (Деформация/Кривые)
+hintWarpY=Компенсирует искажения линз (Деформация/Кривые)
+hintWarpZ=Компенсирует искажения линз (Деформация/Кривые)
+hintChroma=Устранение хроматических аберраций\n(смотрите на цветные искажения по краям)
+
+labelShowFps=Показ FPS
+labelYawScale=Трекинг соотношение
+labelYawScale11=1:1
+labelYawScale21=2:1
+labelYawScale31=3:1
+labelLensPreset=Пресет линз
+labelAdvancedLens=Расширение линз
+
+hintShowFps=Показать частоту захвата/передачи
+hintYawScale=Коэффициент вращения, настройте в зависимости, сидите вы или стоите\nнапр. Вы не сможете повернуться на 360 градусов в неподвижном кресле
+hintLensPreset=Выберите пресет, который подходит вашей VR гарнитуре для максимального комфорта\nВы можете вручную настроить параметры Расширенными настройками линз
+hintAdvancedLens=Ручная настройка Коррекции линз для лучшего визуального комфорта
+
+//new UI
+labelIntroStep1=ДОБРО ПОЖАЛОВАТЬ В TRINUS VR
+labelDescStep1=Давайе начнём!\n\n1.- Скачайте Trinus VR Lite клиент для вашего смартфона
+labelIntroStep2=ПОДКЛЮЧЕНИЕ СМАРТФОНА
+labelDescStep2=2.- Подключите смартфон к вашему Wifi, или через USB-модем\n(USB даёт лучшую производительность, но Wifi AC тоже хорошо!)
+labelIntroStep3=ПОДГОТОВКА СОЕДИНЕНИЯ
+labelDescStep3=3.- Запустите Trinus на смартфоне и введите в поле ниже, IP указанный в клиенте
+labelDescStep3b=3b.- При необходимости можно установить порт соединения для видео и отслеживания головы\n(по умолчанию обычно работает хорошо)
+labelIpInputHint=например, 192.168.1.26
+labelVideoPortInputHint=7777
+labelSensorPortInputHint=5555
+labelIntroStep4=ГОТОВО!
+labelDescStep4=Нажмите кнопку START ниже, чтобы начать игру.\n\nПосле старта, вы можете приостановить, нажав ESCAPE (или Start на геймпаде).\nЭто даст вам дополнительные опции для оптимизации работы.\n\nЧтобы играть используйте WASD (или левый стик геймпада) для перемещения.\nСтрелять - левая кнопка мыши (Или тригер геймпада).\n\nОсматривайтесь поворотами головы, и обратите внимание на входящих зомби!
+labelStart=START
+
+labelPauseTitle=НАСТРОЙКИ
+labelShowFps=Показать FPS
+labelHeadTrackingRatio=Head Tracking соотношение
+labelLensPreset=Гарнитура
+labelFov=FOV
+labelQuality=Разрешение
+labelCustomizeLens=ЛИНЗЫ
+
+labelLensTitle=ПАРАМЕТРЫ ЛИНЗ
+labelSeparation=Разделение
+labelWidth=Ширина
+labelHeight=Высота
+labelLensAngleX=Угол
+labelWarpX=Выгнуть X
+labelWarpY=Выгнуть Y
+labelWarpZ=Выгнуть Z
+labelChroma=Аберрации

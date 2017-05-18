@@ -1,0 +1,115 @@
+labelOn=On
+labelOff=Off
+labelOk=Ok
+labelCancel=Cancel
+labelContinue=Continue
+labelConnSettings=Settings
+labelMotionBoost=Motion Boost
+labelLensDistortion=Lens Correction
+labelMainPort=Video Port
+labelSensorPort=Sensor Port
+labelForceIP=Set IP
+labelScore=Score: {0}
+labelQuit=Exit
+labelCustomLens=Custom
+labelFov=Field of View
+
+labelScreenX=Screen X
+labelScreenY=Screen Y
+labelLensX=Lens X
+labelLensY=Lens Y
+labelScaleX=Scale X
+labelScaleY=Scale Y
+labelWarpX=Warp X
+labelWarpY=Warp Y
+labelWarpZ=Warp Z
+labelChroma=Chroma
+
+msgIntro0=Download the TrinusVR\nphone app from the store\n(Scan the code below\nor go to http://trinusvr.com/dlu)
+msgIntro1=Connect your phone\nvia USB Tethering or Wifi
+msgIntro2=For Wifi, it is best to plug\nthe PC to the router via cable
+msgIntro3=For USB, use a data cable and\nkeep your USB drivers up to date
+msgIntro4=If performance is slow, restart the\ngame and lower the resolution or quality\nNote: Windowed mode may give slightly\nbetter performance than fullscreen
+msgIntro5=Start the TrinusVR app, put it\nin your VR headmount and press SPACE
+msgTrinusWait=Waiting for Trinus connection\n{0}
+msgFailedConn=Failed to connect {0}
+
+hintOkLensSettings=Ok to confirm, or press ESCAPE to cancel changes
+hintQuit=Exit to Desktop
+hintConnSettings=Basic settings to establish the Trinus connection\nPress ESCAPE while in game for additional options
+hintTypeMainPort=Type port number (same as on the phone) and press ENTER
+hintTypeSensorPort=Type port number and press ENTER
+hintTypeForceIP=Manually set the IP Address shown on the phone if Trinus is unable to connect
+hintLensDistortion=Enable for better image quality (can be adjusted during game)
+hintMotionBoost=Enable for better performance (disable if image flickers)
+hintFov=Set the field of view matching your head mount
+
+hintScreenX=Distance between both displayed images (IPD, Inter Pupilary Distance)
+hintScreenY=Move images up and down
+hintLensX=Rotates the display
+hintLensY=Rotates the display
+hintScaleX=Change the size (use it to make the image fit the display area)
+hintScaleY=Change the size (use it to make the image fit the display area)
+hintWarpX=Distorts/curves the image to counter the lens distortion
+hintWarpY=Distorts/curves the image to counter the lens distortion
+hintWarpZ=Distorts/curves the image to counter the lens distortion
+hintChroma=Adjusts the chroma correction\n(check for color bleeding, specially around the edges)
+
+labelShowFps=Show FPS
+labelYawScale=Tracking Ratio
+labelYawScale11=1:1
+labelYawScale21=2:1
+labelYawScale31=3:1
+labelLensPreset=Lens Preset
+labelAdvancedLens=Advanced Lens
+
+hintShowFps=Show the capture/delivery rates
+hintYawScale=Ratio of rotation, adjust depending on if you are seating or standing\ne.g. You won't be able to rotate 360 degrees on a static chair
+hintLensPreset=Select a preset that suits your head mount for maximum visual comfort\nYou can manually adjust the parameters from the Advanced Lens settings
+hintAdvancedLens=Manually adjust the Lens settings for better visual comfort
+
+//new UI
+labelIntroStep1=WELCOME TO TRINUS VR
+labelDescStep1=Let's get started!\n\n1.- Download the Trinus VR Lite client for your smartphone
+labelIntroStep2=CONNECT YOUR PHONE
+labelDescStep2=2.- Connect your phone to your home Wifi, or via USB Tethering\n(USB provides the best performance, but Wifi AC is good too!)
+labelIntroStep3=PREPARE THE LINK
+labelDescStep3=3.- Start Trinus on your phone and enter the IP number in the textbox below, as shown on the phone
+labelDescStep3b=3b.- Optionally set the connection ports for video and head tracking\n(defaults are usually fine)
+labelIpInputHint=e.g. 192.168.1.26
+labelPortInputHint=e.g. 7778
+labelVideoPortInputHint=7777
+labelSensorPortInputHint=5555
+labelIntroStep4=GET READY!
+labelDescStep4=Press the START button below to start the game.\n\nOnce you begin, you can pause by pressing ESCAPE (or gamepad start).\nThis will give you access to additional options to optimize the experience.\n\nLook around with your head, reset the view (default key R) if necessary.
+labelStart=Start
+labelTroubleConnecting=Is connection not working?\nTry manually setting the IP as shown on Trinus Phone Client.\nYou can also change the port if current one (default 7777) is already in use, but remember to change it on Trinus Phone Client as well.
+
+labelPauseTitle=OPTIONS
+labelShowFps=Show FPS
+labelHeadTrackingRatio=Head Tracking Ratio
+labelLensPreset=Head Mount
+labelFov=FOV
+labelQuality=Resolution
+labelCustomizeLens=Customize
+labelMonoscopic=2D Mode
+
+labelLensTitle=LENS PARAMETERS
+labelSeparation=Separation
+labelWidth=Width
+labelHeight=Height
+labelLensAngleX=Angle
+labelWarpX=Warp X
+labelWarpY=Warp Y
+labelWarpZ=Warp Z
+labelChroma=Color Offset
+
+labelLow=Low
+labelMedium=Medium
+labelHigh=High
+labelVeryHigh=Very High
+
+labelRestart=Restart
+labelApply=Apply
+
+labelIpd=Eye Separation (IPD)

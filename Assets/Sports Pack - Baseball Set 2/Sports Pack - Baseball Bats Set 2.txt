@@ -1,0 +1,25 @@
+Thank you for purchasing Sports Pack - Baseball Bats Set 2. In this set you will find 2 neon flame emission textured bats, 8 colorful neon emission textured design bats. A low poly baseball bat mesh and a scene file so you can view all of the bats included in this set. Below is the file structure:
+
+Assets
+  Sports Pack - Baseball Bats Set 2
+     Materials
+     Mesh
+	bat.fbx
+     Prefabs
+     Scene
+     Textures
+	(Size: 2048)
+	(Type: PNG)
+
+Again, thank you for your purchase and please take a look at the other sets I have created:
+
+Sports Pack - Baseball Bats Set 1 which contains bats with select solid color bats and striped bats with grips.
+
+Sports Pack - Baseball Bats Set 3 which contains 5 wood bats with designs, 3 metal (aluminum) bats with designs, 2 metal industrial bats.
+
+Sports Pack - Baseball Bats Bundle which contains ALL SETS. Also, a bonus set which contains 4 country designs: USA, Canada, Japan, and Korea.
+
+If you have any questions, suggestions or have any requests for Unity assets please do not hesitate to contact me at moffafa@gmail.com.
+
+Moffafa
+3D Modeler/Texture Artist

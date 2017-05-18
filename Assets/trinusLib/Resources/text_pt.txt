@@ -1,0 +1,106 @@
+labelOn=Ligado
+labelOff=Desligado
+labelOk=Ok
+labelCancel=Cancelar
+labelContinue=Continuar
+labelConnSettings=Configurações
+labelMotionBoost=Aumento de movimento
+labelLensDistortion=Correção de lente
+labelMainPort=Porta de vídeo
+labelSensorPort=Porta do sensor
+labelForceIP=Selecionar IP
+labelScore=Score: {0}
+labelQuit=Sair
+labelCustomLens=Customizado
+labelFov=Campo de visão
+
+labelScreenX=Tela X
+labelScreenY=Tela Y
+labelLensX=Lentes X
+labelLensY=Lentes Y
+labelScaleX=Escala X
+labelScaleY=Escala Y
+labelWarpX=Deformar X
+labelWarpY=Deformar Y
+labelWarpZ=Deformar Z
+labelChroma=Chroma
+
+msgIntro0=Baixe o TrinusVR\nphone a partir da PlayStore\n(Escaneie o código abaixo\nor vá para http://trinusvr.com/dlu)
+msgIntro1=Ligue o telefone\via Ancoragem USB ou Wi-Fi
+msgIntro2=Para Wifi, é melhor para ligar\o PC ao roteador via cabo
+msgIntro3=Para USB, utilize um cabo de dados e\mantenha seus drivers USB atualizados
+msgIntro4=Se o desempenho estivar lento, reinicieo\nJogo e diminua a resolução ou a qualidade\NOTA: Modo de janela pode ser um pouco\melhor em desempenho do que em tela Cheia
+msgIntro5=Inicie a aplicação TrinusVR, coloque\na sua cabeça o óculos de RV e pressione ESPAÇO
+msgTrinusWait=Esperando pela conexão com o Trinus...\n{0}
+msgFailedConn=Falha ao conectar {0}
+
+hintOkLensSettings=OK para confirmar, or press ESCAPE to cancel changes
+hintQuit=Sair para área de trabalho
+hintConnSettings=Configurações básicas para estabilizara a conexão Trinus\nPressione ESC durante o jogo para opções adicionais
+hintTypeMainPort=Número da porta (o mesmo que no telefone) e pressione ENTER
+hintTypeSensorPort=Digite o numero de porta e pressione ENTER
+hintTypeForceIP=Configurar manualmente o endereço IP mostrado no telefone se Trinus é incapaz de se conectar
+hintLensDistortion=Permitir uma melhor qualidade de imagem (pode ser ajustada durante o jogo)
+hintMotionBoost=Ativar para um melhor desempenho (desativar se a imagem pisca)
+hintFov=Defina o campo de visão correspondentes montar sua cabeça
+
+hintScreenX=Distancia entre ambas imagens da tela (DPI, Distância interpupilar)
+hintScreenY=Mover imagens para cima e para baixo
+hintLensX=Rotates a Tela
+hintLensY=Rotacionar a Tela
+hintScaleX=Mudar o Tamanho (Usá-lo para fazer a imagem caber na área de exibição)
+hintScaleY=Mudar o Tamanho (usá-lo para fazer a imagem caber na área de exibição)
+hintWarpX=Distorce/curvas de imagem para combater a distorção da lente
+hintWarpY=Distorce/curvas de imagem para combater a distorção da lente
+hintWarpZ=Distorce/curvas de imagem para combater a distorção da lente
+hintChroma=Adjusts the chroma correction\n(check for color bleeding, specially around the edges)
+
+labelShowFps=Mostrar FPS
+labelYawScale=Taxa de Rastreio
+labelYawScale11=1:1
+labelYawScale21=2:1
+labelYawScale31=3:1
+labelLensPreset=Lens Preset
+labelAdvancedLens=Lente Avançada
+
+hintShowFps=Mostrar as taxas de captação/entrega
+hintYawScale=Taxa de rotação, ajuste dependendo se você estiver sentado ou em pé\nex. Você não será capaz de girar 360 graus em uma cadeira estática.
+hintLensPreset=Escolha uma predefinição que se adapte a sua cabeça para montar o conforto visual máximo\Você pode ajustar manualmente os parâmetros das configurações de lente avançada
+hintAdvancedLens=Ajustar manualmente as configurações de lentes para melhor conforto visual
+
+//new UI
+labelIntroStep1= BEM VINDO AO TRINUS VR
+labelDescStep1=Vamos Começar!\n\n1.- Baixar o cliente do TrinusVR lite para seu celular
+labelIntroStep2=CONECTE SEU CELULAR
+labelDescStep2=2.- Conecte seu celular à sua rede Wifi, ou via ancoragem USB\n(USB fornece a melhor performance, mas Wifi padrão AC é bom também!)
+labelIntroStep3=PREPARE-SE PARA VINCULAR
+labelDescStep3=3.- Abra o Trinus no seu telefone e digite o número IP na caixa de texto abaixo, como mostrado no telefone
+labelDescStep3b=3b.- Opcionalmente, defina as portas de conexão para vídeo e da cabeça de rastreamento\n (o padrão são geralmente muito bem)
+labelIpInputHint=e.g. 192.168.1.26
+labelVideoPortInputHint=7777
+labelSensorPortInputHint=5555
+labelIntroStep4=SE PREPARE!
+labelDescStep4=Pressione começar abaixo do Jogo.\n\Uma vez que você começar, você pode pauser pressionando ESPAÇO (ou "start" no Gamepad).\nIsso irá fornecer acesso à opções para otimizar a experiencia.\n\nOlhe em volta com sua cabeça.
+labelStart=COMEÇAR
+
+labelPauseTitle=OPÇÕES
+labelShowFps=Mostrar FPS
+labelHeadTrackingRatio=Taxa de Rastreio da cabeça
+labelLensPreset=Dispositivo
+labelFov=Campo de visão
+labelQuality=Resolução
+labelCustomizeLens=CUSTOMIZADO
+
+labelLensTitle=Parâmetros de Lente
+labelSeparation=Separação
+labelWidth=Largura
+labelHeight=Altura
+labelLensAngleX=Angulo
+labelWarpX=Warp X
+labelWarpY=Warp Y
+labelWarpZ=Warp Z
+labelChroma=Compensação de cor
+
+labelRestart=Reinicieo
+
+labelIpd=IPD
